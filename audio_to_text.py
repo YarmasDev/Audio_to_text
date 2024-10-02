@@ -5,8 +5,9 @@ from io import BytesIO
 import time
 from groq._base_client import APIConnectionError
 
-# Initialize the Groq client
-client = Groq(api_key="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")
+# Initialize the Groq client using secrets
+api_key = st.secrets["API_KEY"]["key"]
+client = Groq(api_key=api_key)
 
 def chat():
     st.title("Audio Transcription and Translation")
