@@ -46,7 +46,3 @@ To run this project locally, ensure you have the required packages installed. Yo
    - Or, click the "Start recording" button to record your voice directly.
 3. Once the audio is processed, the transcription and translation will be displayed on the screen.
 
-## Live Demo
-
-You can also try the live version of the application here: https://audiototext-abv9xytvl24cayxllpbyp5.streamlit.app/
-
